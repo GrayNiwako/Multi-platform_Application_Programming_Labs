@@ -1,0 +1,13 @@
+SDK：
+
+读TsinghuaX相关课程第3章源代码中的3-4.cpp程序，在CodeBlocks中运行程序。
+修改程序，使得ANSI编码和UNICODE编码下都能运行。
+
+使用字体选择对话框设置字体。
+ChooseFont的用法查MSDN。
+
+https://msdn.microsoft.com/en-us/library/windows/desktop
+
+参考MOOC： 
+TsinghuaX: 00740113X_2015_T2 VC++面向对象与可视化程序设计 (2015年秋)
+http://www.xuetangx.com/courses/course-v1:TsinghuaX+00740113X_2015_T2+2015_T2/courseware/58033edc87d947938b2ad7047abaacc1/
