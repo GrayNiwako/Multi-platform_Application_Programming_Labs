@@ -1,0 +1,2 @@
+本来95行总是报错：undefined reference to 'ChooseFontA@4'。
+后来在编译器里把链接库加上就解决了。
