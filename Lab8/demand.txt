@@ -1,0 +1,23 @@
+WX:
+
+利用google的开源OCR项目PYTESSER（https://code.google.com/archive/p/pytesser/https://github.com/tesseract-ocr）
+下载安装https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/pytesser/pytesser_0.0.1.zip，
+建立一个OCR识别程序将图片文件转换成TXT文本文件。
+
+README：https://code.google.com/archive/p/pytesser/wikis/README.wiki 
+
+建立一个目录lab8
+将pytesser_v0.0.1.zip解压到lab8；
+安装tesseract-ocr-setup-3.02.02.exe https://sourceforge.net/projects/tesseract-ocr-alt/files/latest/download?source=files
+运行pytesser.py程序确认安装成功。
+
+编写一个WX程序：
+1) “打开”(通过通用对话框选择文件名)一个图像文件显示在客户区；
+2)  使用urllib2模块从学校公共数据库登录页面下载并保存验证码图片
+3) “OCR”识别并显示在一个信息框中；
+4) “保存”将文本保存在一个文件中。open(filename,‘w’).write(“TEXT”)
+5) “关于”显示作者的学号和姓名信息
+【optional】6） 尝试中文识别，发现问题，想解决办法。中文训练包：tesseract-ocr-3.02.chi_sim.tar.gz需要修改pytesser中的部分PYTHON代码
+
+Windows参考运行程序：Lab8R（testFiles下的图片文件供运行测试用）。解压后运行参考程序。
+按照文档说明，在Linux中安装并使用。
